@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700&display=swap');
+body{
+    background: url(./images/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.illustration-hero{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#flex-group{
+    margin: auto;
+    background: white;
+    height: 530px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.billing-plans {
+    background: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    display: flex;
+    height: 70px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.music-icon{
+    margin: 10px;
+}
+.billing{
+    display: grid;
+    grid-auto-rows: 14px;
+    margin-right: 40px;
+    align-items: center;
+}
+.change-billing{
+    float: left;
+    font-weight: bold;
+    margin:auto;
+}
+.order-summary{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.description{
+    text-align: center;
+    margin-right:15px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.payment-procession{
+    background:hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 16px;
+    box-shadow:5px 15px 10px hsl(225, 100%, 95%) ;
+}
+.cancel-order{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    margin-top: 2px;
+}
